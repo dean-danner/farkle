@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Farkle</title>
+  <link href="Farkle.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+  <center>
+    <h1>Farkle</h1>
+    <p class="num" id="nummos">
+      Number of players: <input type="text" id="players" maxlength="1" size="1"
+      placeholder="2-5" />
+      <br /><br /><button id="submit">Submit</button><br />
+    </p>
+
+    <div id="playerNames"></div>
+    <button id="start" class="offNames">Start</button><br />
+
+    <div id="score"></div>
+    <div id="game" class="offGame"></div>
+    <p id = "ja" class="offGame">
+      <button id="roll">Roll</button>
+      <button id="end">End Turn</button>
+    </p>
+    <div id="msg"></div>
+    <div id="hd"></div>
+
+    <br /><div id="error" class="error"></div>
+    <div id="winner"></div>
+    <p>
+      <button id="reset" class="re">Play Again</button>
+    </p>
+  </center>
+  <script src="Farkle.js"></script>
+</body>
+
+</html>
