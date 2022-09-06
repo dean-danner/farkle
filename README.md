@@ -1,1 +1,2 @@
-# farkle
+# Farkle Dice Game
+
